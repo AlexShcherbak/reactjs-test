@@ -1,0 +1,25 @@
+.posts {
+    padding: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+  
+    &__user_name {
+      font-weight: bold;
+      font-size: 25px;
+      margin-bottom: 15px;
+    }
+  
+    &__container {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding-top: 20px;
+    }
+}
